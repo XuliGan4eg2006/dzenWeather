@@ -1,0 +1,18 @@
+{
+  "name": "webwidgets",
+  "version": "1.0.0",
+  "description": "An application for show web sites as widgets ",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron ."
+  },
+  "keywords": [
+    "widgets"
+  ],
+  "author": "rm_rf",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0"
+  }
+}
