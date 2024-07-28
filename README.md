@@ -8,7 +8,7 @@ npm install electron
 npx electron . // test if all works
 electron-packager <sourcedir> <appname> --platform=win32 --arch=x86_64
 ```
-##P.S.
+## P.S.
 Проект был сделан буквально за вечер, по умолчанию открывает окно с виджетом на втором экране в левом верхнем углу, но это можно изменить поменяв строку 8 в main.js
 ```
 return display.bounds.x !== 0 || display.bounds.y !== 0; на  return display.bounds.x === 0 && display.bounds.y
